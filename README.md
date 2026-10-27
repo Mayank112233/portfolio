@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+![Mayank Madhukar — AI and Data](docs/assets/github-banner.svg)
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+# Mayank Madhukar · Portfolio
+
+A personal portfolio showcasing work in agentic AI, machine learning, and data intelligence.
+
+[Explore projects](#selected-projects) · [LinkedIn](https://www.linkedin.com/in/mayank-madhukar-7a9246297/) · [GitHub](https://github.com/Mayank112233)
+
+</div>
+
+---
+
+## Selected Projects
+
+| Project | Focus |
+| :--- | :--- |
+| [Agentic Data Intelligence Platform](https://github.com/Mayank112233/Agentic-Data-Intelligence-Platform) | Automated data cleaning, EDA, modeling, explanations, and reporting |
+| [AI Investment Research Platform](https://github.com/Mayank112233/AI-Investment-Research-Platform) | LangGraph orchestration and financial tool calling |
+| [Google Play Store EDA & ML](https://github.com/Mayank112233/-Google-Play-Store-EDA-Machine-Learning-Pipeline-) | Statistical analysis, feature engineering, and predictive modeling |
+
+## Built With
+
+Next.js · React · TypeScript · Tailwind CSS · Framer Motion · Lucide
+
+## Run Locally
 
 ```bash
+git clone https://github.com/Mayank112233/portfolio.git
+cd portfolio
+npm ci
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Command | Purpose |
+| :--- | :--- |
+| `npm run dev` | Start the development server |
+| `npm run build` | Create a production build |
+| `npm start` | Serve the production build |
+| `npm run lint` | Run ESLint |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
 
-## Learn More
+- `src/app/` — Page composition, layout, and global styles
+- `src/components/` — Hero, about, skills, experience, projects, achievements, GitHub statistics, and contact
+- `public/` — Static assets
+- `docs/` — GitHub profile design and presentation assets
 
-To learn more about Next.js, take a look at the following resources:
+## Connect
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[LinkedIn](https://www.linkedin.com/in/mayank-madhukar-7a9246297/) · [GitHub](https://github.com/Mayank112233)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[Preview the matching GitHub profile](docs/github-profile.md)
